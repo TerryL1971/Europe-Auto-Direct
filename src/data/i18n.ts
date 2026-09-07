@@ -57,8 +57,6 @@ export const translations: Record<Lang, Dict> = {
       'Collect near Stuttgart, or have the car delivered anywhere in Germany or Luxembourg. Plates and documents ready on the day.',
 
     'inv.title': 'Inventory preview',
-    'inv.sub':
-      'A sample of EU-spec stock. Every total below already includes German VAT at 19%, shown on its own line.',
     'inv.filterMake': 'Make',
     'inv.filterBody': 'Body type',
     'inv.all': 'All',
@@ -152,8 +150,6 @@ export const translations: Record<Lang, Dict> = {
       'Abholung im Raum Stuttgart oder Lieferung überallhin in Deutschland und Luxemburg. Kennzeichen und Papiere am selben Tag bereit.',
 
     'inv.title': 'Fahrzeugvorschau',
-    'inv.sub':
-      'Ein Ausschnitt aus dem EU-Bestand. Jeder Gesamtpreis enthält bereits 19% deutsche MwSt., separat ausgewiesen.',
     'inv.filterMake': 'Marke',
     'inv.filterBody': 'Karosserie',
     'inv.all': 'Alle',
@@ -247,8 +243,6 @@ export const translations: Record<Lang, Dict> = {
       'Retrait près de Stuttgart, ou livraison partout en Allemagne et au Luxembourg. Plaques et documents prêts le jour même.',
 
     'inv.title': 'Aperçu du stock',
-    'inv.sub':
-      'Un échantillon du stock aux normes UE. Chaque total ci-dessous inclut déjà la TVA allemande de 19%, indiquée séparément.',
     'inv.filterMake': 'Marque',
     'inv.filterBody': 'Carrosserie',
     'inv.all': 'Toutes',
