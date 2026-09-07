@@ -19,6 +19,8 @@ const HUES: Record<string, [string, string]> = {
   Renault: ['#172033', '#3f4a63'],
   Peugeot: ['#0f172a', '#2f4a63'],
   Volvo: ['#111a2b', '#38566e'],
+  Cupra: ['#12232f', '#2f5061'],
+  Kia: ['#151d2e', '#33415a'],
 };
 
 function Thumb({ v }: { v: Vehicle }) {
