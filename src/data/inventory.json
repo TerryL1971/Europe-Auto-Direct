@@ -16,7 +16,7 @@
     "vatAmount": 3497,
     "images": [],
     "location": "Stuttgart",
-    "blurb": "The default sensible choice across Germany — parts, service and resale are effortless everywhere you'll be posted."
+    "blurb": "The default sensible choice across Germany — parts, service and resale are effortless in every city you might move to."
   },
   {
     "id": "audi-a4-002",
@@ -34,7 +34,7 @@
     "priceNet": 26471,
     "vatAmount": 5029,
     "images": [],
-    "location": "Stuttgart",
+    "location": "Frankfurt",
     "blurb": "Long-legged autobahn cruiser with the estate boot that makes cross-border weekends painless."
   },
   {
@@ -53,7 +53,7 @@
     "priceNet": 23361,
     "vatAmount": 4439,
     "images": [],
-    "location": "Stuttgart",
+    "location": "Munich",
     "blurb": "Rear-drive balance, real-world 5.5 l/100km, and a service history you can actually read."
   },
   {
@@ -110,8 +110,8 @@
     "priceNet": 24118,
     "vatAmount": 4582,
     "images": [],
-    "location": "Stuttgart",
-    "blurb": "Compact footprint, premium cabin, and a dealer network on every second corner in Baden-Württemberg."
+    "location": "Wiesbaden",
+    "blurb": "Compact footprint, premium cabin, and a dealer network on every second corner in Germany."
   },
   {
     "id": "audi-q3-007",
@@ -167,7 +167,7 @@
     "priceNet": 20672,
     "vatAmount": 3928,
     "images": [],
-    "location": "Stuttgart",
+    "location": "Heidelberg",
     "blurb": "Distinctive cabin, comfortable ride, and a price that leaves room in the relocation budget."
   },
   {
@@ -186,7 +186,7 @@
     "priceNet": 21345,
     "vatAmount": 4055,
     "images": [],
-    "location": "Stuttgart",
+    "location": "Düsseldorf",
     "blurb": "Premium badge, hatchback practicality, and warranty history that transfers cleanly to you."
   },
   {
@@ -224,7 +224,7 @@
     "priceNet": 19076,
     "vatAmount": 3624,
     "images": [],
-    "location": "Stuttgart",
+    "location": "Frankfurt",
     "blurb": "Maximum space per euro. The workhorse choice for anyone commuting between countries each week."
   }
 ]

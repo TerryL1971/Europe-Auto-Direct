@@ -31,12 +31,11 @@ export const translations: Record<Lang, Dict> = {
     'nav.locations': 'Locations',
     'nav.contact': 'Contact',
 
-    'hero.eyebrow': 'Stuttgart region · Luxembourg',
+    'hero.eyebrow': 'Germany · Luxembourg',
     'hero.headline': 'Your car. Your country. No complications.',
     'hero.sub':
       'EU-spec vehicles at one honest, VAT-inclusive price. The number you see is the number you pay — itemised, in your language, with the paperwork handled.',
     'hero.cta': 'Browse inventory',
-    'hero.cta2': 'See a price breakdown',
     'hero.badge1': 'Every price VAT-inclusive',
     'hero.badge2': 'EU-spec vehicles only',
     'hero.badge3': 'No surprise costs at signing',
@@ -55,7 +54,7 @@ export const translations: Record<Lang, Dict> = {
       'We walk you through registration (Zulassung), insurance and the TÜV situation — no German credit history required.',
     'how.step4.t': 'Drive away',
     'how.step4.d':
-      'Collect in Stuttgart, or arrange delivery for Luxembourg. Plates and documents ready on the day.',
+      'Collect near Stuttgart, or have the car delivered anywhere in Germany or Luxembourg. Plates and documents ready on the day.',
 
     'inv.title': 'Inventory preview',
     'inv.sub':
@@ -89,10 +88,6 @@ export const translations: Record<Lang, Dict> = {
     'why.p4.d':
       'Every step is available in English, German or French, from the first question to the registration appointment.',
 
-    'price.title': 'How the price is built',
-    'price.sub':
-      'German consumer law requires VAT to be shown. We put it front and centre — this is the whole idea.',
-    'price.slider': 'Example vehicle total',
     'price.base': 'Base price (net)',
     'price.vat': 'VAT (19%)',
     'price.total': 'Total price you pay',
@@ -100,9 +95,9 @@ export const translations: Record<Lang, Dict> = {
       'Illustrative. Every listing on the site shows this same breakdown for its actual price.',
 
     'loc.title': 'Where we operate',
-    'loc.stuttgart.t': 'Stuttgart',
-    'loc.stuttgart.d':
-      'Primary location. Viewings, collection and registration support in person across the wider region.',
+    'loc.de.t': 'Germany',
+    'loc.de.d':
+      'Nationwide. Personal handover near Stuttgart, or delivery to your door — Frankfurt, Munich, Düsseldorf, Wiesbaden, Heidelberg and beyond.',
     'loc.lux.t': 'Luxembourg',
     'loc.lux.d':
       'Served market. Remote purchase with delivery and documentation handled end to end — no physical branch required.',
@@ -131,12 +126,11 @@ export const translations: Record<Lang, Dict> = {
     'nav.locations': 'Standorte',
     'nav.contact': 'Kontakt',
 
-    'hero.eyebrow': 'Region Stuttgart · Luxemburg',
+    'hero.eyebrow': 'Deutschland · Luxemburg',
     'hero.headline': 'Ihr Auto. Ihr Land. Keine Komplikationen.',
     'hero.sub':
       'EU-Fahrzeuge zu einem ehrlichen Preis inklusive Mehrwertsteuer. Was Sie sehen, ist was Sie zahlen — aufgeschlüsselt, in Ihrer Sprache, mit erledigten Formalitäten.',
     'hero.cta': 'Fahrzeuge ansehen',
-    'hero.cta2': 'Preisaufschlüsselung ansehen',
     'hero.badge1': 'Jeder Preis inkl. MwSt.',
     'hero.badge2': 'Nur EU-Fahrzeuge',
     'hero.badge3': 'Keine Überraschungen bei Vertragsabschluss',
@@ -155,7 +149,7 @@ export const translations: Record<Lang, Dict> = {
       'Wir begleiten Sie bei Zulassung, Versicherung und TÜV — ohne deutsche Bonitätshistorie.',
     'how.step4.t': 'Losfahren',
     'how.step4.d':
-      'Abholung in Stuttgart oder Lieferung nach Luxemburg. Kennzeichen und Papiere am selben Tag bereit.',
+      'Abholung im Raum Stuttgart oder Lieferung überallhin in Deutschland und Luxemburg. Kennzeichen und Papiere am selben Tag bereit.',
 
     'inv.title': 'Fahrzeugvorschau',
     'inv.sub':
@@ -189,10 +183,6 @@ export const translations: Record<Lang, Dict> = {
     'why.p4.d':
       'Jeder Schritt auf Englisch, Deutsch oder Französisch, von der ersten Frage bis zum Zulassungstermin.',
 
-    'price.title': 'Wie sich der Preis zusammensetzt',
-    'price.sub':
-      'Das deutsche Verbraucherrecht schreibt die Angabe der MwSt. vor. Wir stellen sie in den Mittelpunkt — darum geht es.',
-    'price.slider': 'Beispiel-Gesamtpreis',
     'price.base': 'Grundpreis (netto)',
     'price.vat': 'MwSt. (19%)',
     'price.total': 'Gesamtpreis, den Sie zahlen',
@@ -200,9 +190,9 @@ export const translations: Record<Lang, Dict> = {
       'Beispielhaft. Jedes Inserat auf der Seite zeigt dieselbe Aufschlüsselung für seinen tatsächlichen Preis.',
 
     'loc.title': 'Wo wir tätig sind',
-    'loc.stuttgart.t': 'Stuttgart',
-    'loc.stuttgart.d':
-      'Hauptstandort. Besichtigung, Abholung und Zulassungsunterstützung persönlich in der gesamten Region.',
+    'loc.de.t': 'Deutschland',
+    'loc.de.d':
+      'Bundesweit. Persönliche Übergabe im Raum Stuttgart oder Lieferung bis vor die Tür — Frankfurt, München, Düsseldorf, Wiesbaden, Heidelberg und mehr.',
     'loc.lux.t': 'Luxemburg',
     'loc.lux.d':
       'Bedienter Markt. Fernkauf mit Lieferung und vollständiger Abwicklung der Unterlagen — keine Filiale nötig.',
@@ -231,12 +221,11 @@ export const translations: Record<Lang, Dict> = {
     'nav.locations': 'Emplacements',
     'nav.contact': 'Contact',
 
-    'hero.eyebrow': 'Région de Stuttgart · Luxembourg',
+    'hero.eyebrow': 'Allemagne · Luxembourg',
     'hero.headline': 'Votre voiture. Votre pays. Sans complications.',
     'hero.sub':
       'Des véhicules aux normes UE à un prix honnête, TVA comprise. Le montant affiché est celui que vous payez — détaillé, dans votre langue, avec les démarches prises en charge.',
     'hero.cta': 'Voir les véhicules',
-    'hero.cta2': 'Voir le détail du prix',
     'hero.badge1': 'Chaque prix TVA comprise',
     'hero.badge2': 'Véhicules aux normes UE uniquement',
     'hero.badge3': 'Aucun frais surprise à la signature',
@@ -255,7 +244,7 @@ export const translations: Record<Lang, Dict> = {
       'Nous vous accompagnons pour l’immatriculation (Zulassung), l’assurance et le contrôle technique — sans historique de crédit allemand.',
     'how.step4.t': 'Prendre la route',
     'how.step4.d':
-      'Retrait à Stuttgart, ou livraison organisée pour le Luxembourg. Plaques et documents prêts le jour même.',
+      'Retrait près de Stuttgart, ou livraison partout en Allemagne et au Luxembourg. Plaques et documents prêts le jour même.',
 
     'inv.title': 'Aperçu du stock',
     'inv.sub':
@@ -289,10 +278,6 @@ export const translations: Record<Lang, Dict> = {
     'why.p4.d':
       'Chaque étape est disponible en anglais, allemand ou français, de la première question au rendez-vous d’immatriculation.',
 
-    'price.title': 'Comment le prix est constitué',
-    'price.sub':
-      'Le droit allemand de la consommation impose d’afficher la TVA. Nous la mettons au premier plan — c’est toute l’idée.',
-    'price.slider': 'Prix total du véhicule exemple',
     'price.base': 'Prix de base (hors taxes)',
     'price.vat': 'TVA (19%)',
     'price.total': 'Prix total que vous payez',
@@ -300,9 +285,9 @@ export const translations: Record<Lang, Dict> = {
       'À titre indicatif. Chaque annonce du site affiche ce même détail pour son prix réel.',
 
     'loc.title': 'Où nous opérons',
-    'loc.stuttgart.t': 'Stuttgart',
-    'loc.stuttgart.d':
-      'Emplacement principal. Visites, retrait et aide à l’immatriculation en personne dans toute la région.',
+    'loc.de.t': 'Allemagne',
+    'loc.de.d':
+      'Partout dans le pays. Remise en main propre près de Stuttgart, ou livraison à domicile — Francfort, Munich, Düsseldorf, Wiesbaden, Heidelberg et au‑delà.',
     'loc.lux.t': 'Luxembourg',
     'loc.lux.d':
       'Marché desservi. Achat à distance avec livraison et gestion complète des documents — sans agence physique.',

@@ -1,155 +1,197 @@
 <div align="center">
 
-# 🚗 Europe Auto Direct
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/brand/logo-primary-reverse.png">
+  <img src="docs/brand/logo-primary.png" alt="Europe Auto Direct" width="420">
+</picture>
 
-### Transparent, all-inclusive car buying for the international community across the Stuttgart region & Luxembourg
+<br><br>
 
-[![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+### Your car. Your country. No complications.
+
+**Transparent, VAT‑inclusive car buying for the international community across Germany &amp; Luxembourg.**
+
+<br>
+
+[![Astro](https://img.shields.io/badge/built_with-Astro-0F172A?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build)
+[![React](https://img.shields.io/badge/islands-React_19-0F172A?style=for-the-badge&logo=react&logoColor=00A3E0)](https://react.dev)
+[![Tailwind](https://img.shields.io/badge/styling-Tailwind_v4-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=00A3E0)](https://tailwindcss.com)
+
+![Last commit](https://img.shields.io/github/last-commit/TerryL1971/Europe-Auto-Direct?style=flat-square&color=00A3E0&labelColor=0F172A)
+![Top language](https://img.shields.io/github/languages/top/TerryL1971/Europe-Auto-Direct?style=flat-square&color=00A3E0&labelColor=0F172A)
+![Code size](https://img.shields.io/github/languages/code-size/TerryL1971/Europe-Auto-Direct?style=flat-square&color=00A3E0&labelColor=0F172A)
+![Languages](https://img.shields.io/github/languages/count/TerryL1971/Europe-Auto-Direct?style=flat-square&label=langs&color=00A3E0&labelColor=0F172A)
+
+[**Concept**](#-the-concept) · [**Highlights**](#-highlights) · [**Multilingual**](#-multilingual-by-design) · [**Stack**](#-tech-stack) · [**Run it**](#-run-it)
+
+</div>
+
+<br>
+
+<div align="center">
+  <img src="docs/screenshots/hero.png" alt="Europe Auto Direct — hero" width="880">
+</div>
+
+---
+
+## 💡 The concept
+
+**Europe Auto Direct** is a concept pitch site for a proposed car‑buying brand aimed at
+relocating professionals and expats — people for whom the paperwork, the language and the
+pricing norms of a new country are the real friction, not the car.
+
+Every price on the site follows one rule:
+
+> **The number you see is the number you pay.**
+
+- 🇪🇺 **EU‑spec vehicles only** — no imports, no single‑vehicle approval, no grey‑market surprises
+- 🧾 **VAT itemised, never buried** — base price `+` VAT `=` total, on every card (German *Preisangabenverordnung*)
+- 🤝 **No German credit history required** — guidance through registration, insurance and TÜV
+- 🌍 **Support in your language** — English / German / French, first question to number plate
+
+<div align="center">
+
+| Full page | Same page, `DE` toggle |
+|:---:|:---:|
+| <img src="docs/screenshots/full-page.png" width="420"> | <img src="docs/screenshots/german.png" width="420"> |
 
 </div>
 
 ---
 
-## 💡 What this is
+## ✨ Highlights
 
-**Europe Auto Direct** is a **concept mockup built for an internal pitch** — a proposed
-secondary business line, separate from Used Car Guys, aimed at the international
-professional / expat community in the **Stuttgart region and Luxembourg**.
-
-It is a persuasive visual aid, not a live store: no real inventory, no payment
-processing, no dealership backend.
-
-### Why a separate brand
-
-UCG's current pricing works because SOFA-status buyers don't pay German taxes.
-An expat or Luxembourg buyer pays a meaningfully different, **tax-inclusive** price
-for an EU-spec vehicle. Running both under one brand risks UCG's standing with its
-existing American customer base — so this reads as its own thing, visually and
-in its pricing model.
-
-### The pricing model this site demonstrates
-
-- **EU-spec vehicles only** — no US-market spec, no grey imports
-- **Every price VAT-inclusive**, with VAT itemised on its own line
-  (required under the German *Preisangabenverordnung*)
-- **The displayed total is the price paid** — no documentation or delivery add-ons
-
----
-
-## ✨ What's in the build
-
-| Section | Notes |
+| | |
 |---|---|
-| **Hero** | "Your car. Your country. No complications." + a live example price breakdown |
-| **How it works** | 4 steps written for someone who has never bought a car in Germany |
-| **Inventory preview** | 12 mock EU-spec listings, filterable by make & body type. Each card shows total price with the VAT amount broken out prominently |
-| **Why buy from us** | Trust section answering "why not a private sale or a normal dealer" |
-| **Price breakdown widget** | Interactive: drag the total, watch base price + VAT resolve to it. The core proof point of the pitch |
-| **Locations** | Stuttgart (primary/physical) and Luxembourg (served market / remote purchase) |
-| **Contact** | Name / email / phone / message with a mock success state |
-| **Footer** | Carries a subtle "A concept in development" note |
-
-### Identity
-
-**Client-supplied artwork.** A heavy geometric `EAD` whose `A`-crossbar
-stretches into a road / car-profile silhouette, over `EUROPE AUTO DIRECT`.
-Delivered as a single outlined path — no font dependency, renders identically
-everywhere. Midnight `#0F172A` monochrome (white on dark).
-
-Component: [src/components/Logo.astro](src/components/Logo.astro) — `lockup`
-(full, used in header + footer) and `mark` (crops to `EAD`); plus a `reverse`
-prop for dark backgrounds. Self-contained SVGs — `logo-primary`,
-`logo-primary-reverse`, `mark` — in [public/brand/](public/brand/); favicon in
-[public/favicon.svg](public/favicon.svg).
-
-**Site palette** (applied site-wide, per the brand brief): deep midnight blue
-`#0F172A` primary (60%), brushed steel `#64748B` support (30%), Grand Ducal
-blue `#00A3E0` accent (10%) on CTAs, links, checkmarks and the VAT breakdown.
-Cool `#F6F7F9` ground. The `navy-*` / `clear-*` token names are retained — `navy`
-now maps to the midnight/slate ramp, `clear` to Grand Ducal blue.
-
-### Language toggle — EN / DE / FR (functional)
-
-The toggle genuinely switches the site chrome, all section headings, CTAs and the
-price-transparency labels across English, German and French. Per-vehicle marketing
-blurbs stay in English in this concept build — they'd come from the real inventory
-feed later. State is shared between the static markup and the React islands via a
-nanostore + `localStorage`.
+| 🏎️ **Filterable inventory** | 12 mock EU‑spec listings, filter by make &amp; body type — a React island, instant, no page reload |
+| 💶 **Transparency built into every card** | Total price with the VAT amount &amp; rate broken out in its own chip — the whole pitch, made visual |
+| 🗣️ **Real EN / DE / FR toggle** | Not a placeholder — it re‑translates the static page *and* the React islands from one shared store |
+| 📍 **Nationwide framing** | Delivery across Germany — Frankfurt, Munich, Düsseldorf, Wiesbaden, Heidelberg — plus Luxembourg |
+| ⚡ **Ships as static HTML** | Marketing content is plain HTML for speed &amp; SEO; only four components hydrate |
+| 📱 **Mobile‑first & theme‑aware** | Fluid layout, tuned down to 360 px |
 
 ---
 
-## 🛠️ Tech Stack
+## 🌐 Multilingual by design
 
-| Layer | Technology |
-|---|---|
-| **Framework** | [Astro](https://astro.build) — static HTML by default, for speed and SEO if this goes live |
-| **Interactive islands** | [React](https://react.dev) — language toggle, inventory filters, price calculator, contact form |
-| **Styling** | [Tailwind CSS v4](https://tailwindcss.com) (via `@tailwindcss/vite`) |
-| **Deployment** | [Vercel](https://vercel.com) |
+The language toggle is the piece most concept sites fake. Here it actually works, and the
+mechanism is small:
 
-Only the genuinely interactive pieces ship JavaScript; every marketing section is
-plain HTML.
+```
+          ┌─────────────────┐
+  click → │  langStore      │  nanostore atom  ·  mirrored to localStorage
+          │  (EN / DE / FR) │
+          └────────┬────────┘
+                   │  fires  "lang-change"
+        ┌──────────┴───────────┐
+        ▼                      ▼
+  React islands          inline script in BaseLayout
+  useStore(langStore)    swaps every  [data-i18n]  text node
+  re‑render in place      + [data-i18n-placeholder]
+```
+
+One dictionary ([`src/data/i18n.ts`](src/data/i18n.ts)), one store
+([`src/stores/lang.ts`](src/stores/lang.ts)). Static markup opts in with a `data-i18n="key"`
+attribute; islands read the same keys through a `t(lang, key)` helper. The chrome, every
+section heading, the filters, the CTAs and the price labels all follow the switch.
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Tech stack
+
+| Layer | Choice | Why |
+|---|---|---|
+| **Framework** | [Astro](https://astro.build) (`output: 'static'`) | Marketing pages that need to rank and load instantly ship as HTML |
+| **Interactive islands** | [React 19](https://react.dev) | Only the inventory grid, filters, language toggle &amp; contact form hydrate |
+| **State across islands** | [nanostores](https://github.com/nanostores/nanostores) | ~1 kB shared store the static markup can subscribe to as well |
+| **Styling** | [Tailwind CSS v4](https://tailwindcss.com) via `@tailwindcss/vite` | Design tokens in one `@theme` block — the whole palette swaps from there |
+| **Deploy** | [Vercel](https://vercel.com) adapter | Zero‑config static output |
+
+---
+
+## 🚀 Run it
 
 ```bash
 npm install
-npm run dev      # http://localhost:4321
-npm run build    # static output in dist/
-npm run preview  # serve the build locally
+npm run dev       # → http://localhost:4321
+npm run build     # → static output in dist/
+npm run preview   # serve the build locally
 ```
 
-Requires Node ≥ 22.12.
+Requires **Node ≥ 22.12**.
+
+<div align="center">
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/TerryL1971/Europe-Auto-Direct)
+
+</div>
 
 ---
 
-## 📁 Project Structure
+## 📁 Project structure
+
+<details>
+<summary>Expand</summary>
 
 ```
 Europe-Auto-Direct/
 ├── src/
-│   ├── components/       # Astro sections + React islands
-│   │   ├── Logo.astro          # identity: lockup / horizontal / mark
-│   │   ├── Hero.astro  HowItWorks.astro  TrustSection.astro  ...
-│   │   ├── InventoryGrid.tsx   VehicleCard.tsx   (islands)
-│   │   ├── PriceBreakdown.tsx  ContactForm.tsx   LanguageToggle.tsx
-│   ├── layouts/
-│   │   └── BaseLayout.astro    # SEO/meta + the static-markup i18n script
-│   ├── pages/
-│   │   └── index.astro
+│   ├── components/
+│   │   ├── Logo.astro            # identity — lockup / mark, reverse prop
+│   │   ├── Hero.astro  HowItWorks.astro  TrustSection.astro
+│   │   ├── LocationsSection.astro  ContactSection.astro  Footer.astro
+│   │   ├── InventorySection.astro
+│   │   ├── InventoryGrid.tsx     ┐
+│   │   ├── VehicleCard.tsx       │  React islands
+│   │   ├── LanguageToggle.tsx    │
+│   │   └── ContactForm.tsx       ┘
+│   ├── layouts/BaseLayout.astro  # SEO/meta + the static-markup i18n script
+│   ├── pages/index.astro
 │   ├── data/
-│   │   ├── inventory.json      # 12 mock EU-spec listings
-│   │   └── i18n.ts             # EN / DE / FR dictionary
-│   ├── lib/                    # inventory typing, currency formatting
-│   ├── stores/
-│   │   └── lang.ts             # shared language state (nanostore)
-│   └── styles/
-│       └── global.css          # Tailwind + design tokens
-└── public/
-    ├── favicon.svg
-    └── brand/                  # logo-primary · logo-primary-reverse · mark (.svg)
+│   │   ├── inventory.json        # 12 mock EU-spec listings
+│   │   └── i18n.ts               # EN / DE / FR dictionary
+│   ├── lib/                      # inventory typing, currency formatting
+│   ├── stores/lang.ts            # shared language state
+│   └── styles/global.css         # Tailwind + design tokens
+├── public/
+│   ├── favicon.svg
+│   └── brand/                     # logo-primary · -reverse · mark (.svg)
+└── docs/                          # screenshots + brand assets
 ```
+
+</details>
 
 ---
 
-## 🗺️ If the pitch is approved
+## 🎨 Identity
 
-- Real inventory feed. The current UCG site (`usedcarguys.net`) runs on WordPress
-  and exposes a REST API — a candidate source for a shared vehicle feed.
-- Full translation of vehicle-level copy
-- Financing / pre-approval inquiry flow
-- Luxembourg delivery logistics page
-- Salesforce DealerTeam integration (operational backend — out of scope for the pitch)
+**Client‑supplied artwork.** A heavy geometric `EAD` whose `A`‑crossbar stretches into a
+road / car‑profile silhouette, over `EUROPE AUTO DIRECT`. One outlined path — no font
+dependency, renders identically everywhere.
+
+**Palette** (deliberately nothing in common with the parent brand):
+
+| Role | Token | Hex |
+|---|---|---|
+| Primary — 60% | `midnight` | `#0F172A` |
+| Support — 30% | `steel` | `#64748B` |
+| Accent — 10% | `ducal` (Grand Ducal blue) | `#00A3E0` |
+| Ground | `sand` | `#F6F7F9` |
+
+Defined once in [`src/styles/global.css`](src/styles/global.css); the `navy-*` / `clear-*`
+Tailwind ramps map onto it, so a repalette is a token edit, not a find‑and‑replace.
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Real inventory feed (the current parent site runs on WordPress + REST API)
+- [ ] Full translation of vehicle‑level copy
+- [ ] Financing / pre‑approval enquiry flow
+- [ ] Luxembourg delivery‑logistics page
 
 ---
 
 <div align="center">
-
-**Built by [Terrell Lombardi](https://terrell-lombardi.de)** · A concept in development.
-
+<sub>A concept in development · not a live dealership · no real inventory or payments.</sub>
 </div>
