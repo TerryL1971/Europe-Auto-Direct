@@ -1,0 +1,40 @@
+---
+// src/components/Footer.astro
+import Logo from './Logo.astro';
+
+const year = new Date().getFullYear();
+const links = [
+  { href: '#inventory', key: 'nav.inventory', label: 'Inventory' },
+  { href: '#how', key: 'nav.how', label: 'How it works' },
+  { href: '#why', key: 'nav.why', label: 'Why buy from us' },
+  { href: '#locations', key: 'nav.locations', label: 'Locations' },
+  { href: '#contact', key: 'nav.contact', label: 'Contact' },
+];
+---
+
+<footer class="border-t border-navy-100 bg-sand">
+  <div class="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+    <div class="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
+      <div class="max-w-sm">
+        <Logo variant="lockup" class="h-16 w-auto" />
+        <p class="mt-5 text-sm leading-relaxed text-navy-500" data-i18n="footer.tagline">
+          Transparent, all-inclusive car buying for the international community in
+          Germany and Luxembourg.
+        </p>
+      </div>
+
+      <nav class="flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold text-navy-600">
+        {links.map((l) => (
+          <a href={l.href} class="transition-colors hover:text-navy-900" data-i18n={l.key}>
+            {l.label}
+          </a>
+        ))}
+      </nav>
+    </div>
+
+    <div class="mt-10 flex flex-col gap-1 border-t border-navy-100 pt-6 text-xs text-navy-400 sm:flex-row sm:items-center sm:justify-between">
+      <p>© {year} Europe Auto Direct. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <p class="font-semibold text-navy-500" data-i18n="footer.concept">A concept in development.</p>
+    </div>
+  </div>
+</footer>

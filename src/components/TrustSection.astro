@@ -1,0 +1,38 @@
+---
+// src/components/TrustSection.astro
+const points = [
+  { key: 'why.p1', t: 'No German credit history needed', d: 'Buying and registering does not depend on a Schufa score. We guide you through the parts that usually trip up new arrivals.' },
+  { key: 'why.p2', t: 'EU-spec means simple registration', d: 'No import inspection, no single-vehicle approval, no grey-market surprises. The car is already legal for the road here.' },
+  { key: 'why.p3', t: 'Transparent, itemised pricing', d: 'Base price plus VAT equals the total — and that total is what you pay. No documentation fees or delivery add-ons at the desk.' },
+  { key: 'why.p4', t: 'Support in your language', d: 'Every step is available in English, German or French, from the first question to the registration appointment.' },
+];
+---
+
+<section id="why" class="bg-navy-900 py-20 text-white">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <div class="max-w-2xl">
+      <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl" data-i18n="why.title">
+        Why buy from us instead of a private sale or a dealer
+      </h2>
+      <p class="mt-4 text-lg text-navy-200" data-i18n="why.sub">
+        The honest answer to the question every relocating buyer asks first.
+      </p>
+    </div>
+
+    <div class="mt-12 grid gap-6 sm:grid-cols-2">
+      {points.map((p) => (
+        <div class="rounded-card border border-white/10 bg-white/[0.04] p-6">
+          <div class="flex items-center gap-3">
+            <span class="grid h-9 w-9 place-items-center rounded-full bg-clear-500/15 text-clear-300">
+              <svg viewBox="0 0 20 20" class="h-4 w-4" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.5 7.5a1 1 0 0 1-1.4 0L3.3 10.7a1 1 0 1 1 1.4-1.4l3 3 6.8-6.8a1 1 0 0 1 1.4 0Z" clip-rule="evenodd"/>
+              </svg>
+            </span>
+            <h3 class="text-lg font-bold" data-i18n={`${p.key}.t`}>{p.t}</h3>
+          </div>
+          <p class="mt-3 text-sm leading-relaxed text-navy-200" data-i18n={`${p.key}.d`}>{p.d}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

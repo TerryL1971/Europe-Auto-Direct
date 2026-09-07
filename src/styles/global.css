@@ -1,0 +1,62 @@
+/* src/styles/global.css */
+@import 'tailwindcss';
+
+/* ------------------------------------------------------------------ *
+ * Europe Auto Direct — design tokens
+ * Premium-European palette: deep midnight blue for authority, brushed
+ * steel for support, Grand Ducal blue as the accent, cool off-white
+ * ground. (`navy-*` and `clear-*` names kept so components don't churn;
+ * `navy` now maps to the midnight/slate ramp, `clear` to Grand Ducal.)
+ * ------------------------------------------------------------------ */
+@theme {
+  --color-navy-50: #f8fafc;
+  --color-navy-100: #f1f5f9;
+  --color-navy-200: #e2e8f0;
+  --color-navy-300: #cbd5e1;
+  --color-navy-400: #94a3b8;
+  --color-navy-500: #64748b;
+  --color-navy-600: #475569;
+  --color-navy-700: #334155;
+  --color-navy-800: #1e293b;
+  --color-navy-900: #0f172a;
+
+  --color-clear-50: #e8f6fd;
+  --color-clear-100: #c9e9fa;
+  --color-clear-200: #97d6f2;
+  --color-clear-300: #54bde8;
+  --color-clear-400: #16a6dd;
+  --color-clear-500: #00a3e0;
+  --color-clear-600: #0a6da0;
+  --color-clear-700: #0a5580;
+
+  --color-sand: #f6f7f9;
+
+  /* Named brand tokens (same values as the ramps above). */
+  --color-midnight: #0f172a;
+  --color-oxford: #1e293b;
+  --color-steel: #64748b;
+  --color-ducal: #00a3e0;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif;
+
+  --radius-card: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-sand);
+  color: var(--color-navy-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Elements swapped by the language toggle fade rather than snap. */
+[data-i18n],
+[data-i18n-placeholder] {
+  transition: opacity 0.12s ease;
+}

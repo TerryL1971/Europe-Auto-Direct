@@ -1,0 +1,30 @@
+---
+// src/components/PriceSection.astro
+import PriceBreakdown from './PriceBreakdown.tsx';
+---
+
+<section id="price" class="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+  <div class="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+    <div>
+      <h2 class="text-3xl font-extrabold tracking-tight text-navy-900 sm:text-4xl" data-i18n="price.title">
+        How the price is built
+      </h2>
+      <p class="mt-4 text-lg text-navy-500" data-i18n="price.sub">
+        German consumer law requires VAT to be shown. We put it front and centre —
+        this is the whole idea.
+      </p>
+      <ul class="mt-6 space-y-2 text-sm text-navy-500">
+        <li class="flex items-start gap-2">
+          <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-navy-400"></span>
+          <span>Preisangabenverordnung — the total shown is the total charged.</span>
+        </li>
+        <li class="flex items-start gap-2">
+          <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-navy-400"></span>
+          <span>Different model from a SOFA-status sale: the buyer here pays German VAT, and sees it.</span>
+        </li>
+      </ul>
+    </div>
+
+    <PriceBreakdown client:visible />
+  </div>
+</section>

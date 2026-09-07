@@ -1,0 +1,87 @@
+---
+// src/layouts/BaseLayout.astro
+import '../styles/global.css';
+import { translations, DEFAULT_LANG } from '../data/i18n';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'Europe Auto Direct — transparent, VAT-inclusive car buying',
+  description = 'EU-spec vehicles at one honest, VAT-inclusive price for the international community in the Stuttgart region and Luxembourg. Every price itemised, paperwork handled.',
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href.replace(/\/$/, '');
+---
+
+<!doctype html>
+<html lang={DEFAULT_LANG}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <slot />
+
+    {/* --------------------------------------------------------------- *
+     * Language toggle for the static markup.
+     * The React <LanguageToggle> island writes localStorage + fires a
+     * `lang-change` event; this script re-translates every [data-i18n]
+     * node so the whole page follows, not just the interactive islands.
+     * --------------------------------------------------------------- */}
+    <script is:inline define:vars={{ dict: translations, fallback: DEFAULT_LANG }}>
+      (function () {
+        const KEY = 'ead-lang';
+
+        function current() {
+          try {
+            const s = localStorage.getItem(KEY);
+            if (s && dict[s]) return s;
+          } catch (e) {}
+          return fallback;
+        }
+
+        function apply(lang) {
+          const table = dict[lang] || dict[fallback];
+          document.documentElement.lang = lang;
+
+          document.querySelectorAll('[data-i18n]').forEach(function (el) {
+            const key = el.getAttribute('data-i18n');
+            if (table[key] != null) el.textContent = table[key];
+          });
+
+          document
+            .querySelectorAll('[data-i18n-placeholder]')
+            .forEach(function (el) {
+              const key = el.getAttribute('data-i18n-placeholder');
+              if (table[key] != null) el.setAttribute('placeholder', table[key]);
+            });
+        }
+
+        apply(current());
+        document.addEventListener('lang-change', function (e) {
+          apply(e.detail || current());
+        });
+      })();
+    </script>
+  </body>
+</html>

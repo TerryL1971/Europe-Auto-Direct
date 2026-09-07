@@ -1,0 +1,40 @@
+---
+// src/components/Header.astro
+import LanguageToggle from './LanguageToggle.tsx';
+import Logo from './Logo.astro';
+
+const links = [
+  { href: '#inventory', key: 'nav.inventory', label: 'Inventory' },
+  { href: '#how', key: 'nav.how', label: 'How it works' },
+  { href: '#why', key: 'nav.why', label: 'Why buy from us' },
+  { href: '#locations', key: 'nav.locations', label: 'Locations' },
+  { href: '#contact', key: 'nav.contact', label: 'Contact' },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-navy-100 bg-sand/85 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
+    <a href="#top" aria-label="Europe Auto Direct — home">
+      <Logo variant="lockup" class="h-12 w-auto" />
+    </a>
+
+    <nav class="hidden items-center gap-6 text-sm font-semibold text-navy-600 lg:flex">
+      {links.map((l) => (
+        <a href={l.href} class="transition-colors hover:text-navy-900" data-i18n={l.key}>
+          {l.label}
+        </a>
+      ))}
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <LanguageToggle client:load />
+      <a
+        href="#inventory"
+        class="hidden rounded-full bg-navy-700 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-navy-800 sm:inline-block"
+        data-i18n="hero.cta"
+      >
+        Browse inventory
+      </a>
+    </div>
+  </div>
+</header>
