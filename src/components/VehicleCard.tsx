@@ -101,10 +101,10 @@ export default function VehicleCard({ v, lang }: { v: Vehicle; lang: Lang }) {
         </div>
 
         <a
-          href="#contact"
+          href={`/inventory/${v.id}`}
           className="mt-3 rounded-full bg-navy-700 px-4 py-2 text-center text-sm font-semibold text-white transition-colors hover:bg-navy-800"
         >
-          {t(lang, 'inv.cta')}
+          {t(lang, 'inv.details')}
         </a>
       </div>
     </article>

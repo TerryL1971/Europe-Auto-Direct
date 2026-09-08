@@ -67,8 +67,25 @@ export const translations: Record<Lang, Dict> = {
     'inv.net': 'Net price',
     'inv.total': 'Total price',
     'inv.cta': 'Enquire about this car',
+    'inv.details': 'View details',
     'inv.empty': 'No vehicles match those filters.',
     'inv.km': 'km',
+
+    'veh.back': 'Back to inventory',
+    'veh.about': 'About this car',
+    'veh.included':
+      'EU-spec and already road-legal in Germany. We handle the registration paperwork, help you sort insurance, and a 12-month mechanical check is included.',
+    'veh.specs': 'Specification',
+    'veh.year': 'Year',
+    'veh.mileage': 'Mileage',
+    'veh.fuel': 'Fuel',
+    'veh.transmission': 'Transmission',
+    'veh.body': 'Body type',
+    'veh.trim': 'Trim',
+    'veh.location': 'Location',
+    'veh.vatNote':
+      'Includes 19% German VAT — the total shown is the total you pay.',
+    'veh.euspec': 'EU-spec — road-legal here, no import steps',
 
     'why.title': 'Why buy from us instead of a private sale or a dealer',
     'why.sub':
@@ -160,8 +177,25 @@ export const translations: Record<Lang, Dict> = {
     'inv.net': 'Nettopreis',
     'inv.total': 'Gesamtpreis',
     'inv.cta': 'Zu diesem Auto anfragen',
+    'inv.details': 'Details ansehen',
     'inv.empty': 'Keine Fahrzeuge passen zu diesen Filtern.',
     'inv.km': 'km',
+
+    'veh.back': 'Zurück zur Übersicht',
+    'veh.about': 'Über dieses Auto',
+    'veh.included':
+      'EU-Fahrzeug, in Deutschland bereits zugelassen und straßentauglich. Wir übernehmen die Zulassung, helfen bei der Versicherung, und eine 12-monatige technische Prüfung ist inklusive.',
+    'veh.specs': 'Fahrzeugdaten',
+    'veh.year': 'Baujahr',
+    'veh.mileage': 'Kilometerstand',
+    'veh.fuel': 'Kraftstoff',
+    'veh.transmission': 'Getriebe',
+    'veh.body': 'Karosserie',
+    'veh.trim': 'Ausstattung',
+    'veh.location': 'Standort',
+    'veh.vatNote':
+      'Inklusive 19% deutsche MwSt. — der angezeigte Gesamtpreis ist der Preis, den Sie zahlen.',
+    'veh.euspec': 'EU-Fahrzeug — hier straßenzugelassen, keine Importschritte',
 
     'why.title': 'Warum bei uns kaufen statt privat oder beim Händler',
     'why.sub':
@@ -253,8 +287,25 @@ export const translations: Record<Lang, Dict> = {
     'inv.net': 'Prix hors taxes',
     'inv.total': 'Prix total',
     'inv.cta': 'Se renseigner sur cette voiture',
+    'inv.details': 'Voir le détail',
     'inv.empty': 'Aucun véhicule ne correspond à ces filtres.',
     'inv.km': 'km',
+
+    'veh.back': 'Retour au stock',
+    'veh.about': 'À propos de cette voiture',
+    'veh.included':
+      'Véhicule aux normes UE, déjà immatriculé et homologué en Allemagne. Nous gérons les démarches d’immatriculation, vous aidons pour l’assurance, et un contrôle mécanique de 12 mois est inclus.',
+    'veh.specs': 'Fiche technique',
+    'veh.year': 'Année',
+    'veh.mileage': 'Kilométrage',
+    'veh.fuel': 'Carburant',
+    'veh.transmission': 'Boîte de vitesses',
+    'veh.body': 'Carrosserie',
+    'veh.trim': 'Finition',
+    'veh.location': 'Emplacement',
+    'veh.vatNote':
+      'TVA allemande de 19% incluse — le total affiché est le prix que vous payez.',
+    'veh.euspec': 'Normes UE — homologué ici, sans démarche d’importation',
 
     'why.title': 'Pourquoi acheter chez nous plutôt qu’en vente privée ou chez un concessionnaire',
     'why.sub':

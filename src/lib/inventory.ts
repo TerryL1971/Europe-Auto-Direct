@@ -30,3 +30,6 @@ export const inventory = raw as Vehicle[];
 
 export const makes = [...new Set(inventory.map((v) => v.make))].sort();
 export const bodyTypes = [...new Set(inventory.map((v) => v.bodyType))].sort();
+
+export const getVehicle = (id: string): Vehicle | undefined =>
+  inventory.find((v) => v.id === id);

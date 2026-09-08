@@ -14,7 +14,18 @@
     "vatRate": 19,
     "priceNet": 21008,
     "vatAmount": 3992,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/3a49af0f-b93f-434c-8e3d-6d81ec890b8a.jpg",
+      "https://s3.amazonaws.com/vehicle-images/17017260-329e-442c-b014-47739a7985d4.jpg",
+      "https://s3.amazonaws.com/vehicle-images/842daf82-df98-4616-9ce5-a72d6fc7db22.jpg",
+      "https://s3.amazonaws.com/vehicle-images/1aa4c376-9ca5-493c-9c58-dad24cb94f7c.jpg",
+      "https://s3.amazonaws.com/vehicle-images/4ffcd1e5-f299-4366-9656-9505cfc9db11.jpg",
+      "https://s3.amazonaws.com/vehicle-images/bb332b75-be69-404f-bb74-87cd466509a8.jpg",
+      "https://s3.amazonaws.com/vehicle-images/8a632b67-35fd-4e85-b8b6-fdb71a6b189e.jpg",
+      "https://s3.amazonaws.com/vehicle-images/79eef2c5-57ec-41a9-b880-514f427463ad.jpg",
+      "https://s3.amazonaws.com/vehicle-images/a4ee4464-18f8-4d80-8b4a-245b2ef7203e.jpg",
+      "https://s3.amazonaws.com/vehicle-images/49bbc234-718b-456b-bc2d-afa06bea3f52.jpg"
+    ],
     "location": "Stuttgart",
     "blurb": "The default sensible choice across Germany — parts, service and resale are effortless in every city you might move to."
   },
@@ -33,7 +44,13 @@
     "vatRate": 19,
     "priceNet": 21008,
     "vatAmount": 3992,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/672e9f00-993c-4af5-a4ca-bfd96a8ae2e0.jpg",
+      "https://s3.amazonaws.com/vehicle-images/5946cd95-e1ec-4826-843a-084a22b7d056.jpg",
+      "https://s3.amazonaws.com/vehicle-images/bfd33e50-d53d-46ea-901e-1dfa97f247f7.jpg",
+      "https://s3.amazonaws.com/vehicle-images/d8c87825-2247-40ba-b115-c8fd2d15ca15.jpg",
+      "https://s3.amazonaws.com/vehicle-images/0e06cc04-e693-4c9c-93cd-10776a831d13.jpg"
+    ],
     "location": "Frankfurt",
     "blurb": "Low mileage for its age, real-world 4.5 l/100km, and a saloon that still feels like a step up on the autobahn."
   },
@@ -52,7 +69,18 @@
     "vatRate": 19,
     "priceNet": 24958,
     "vatAmount": 4742,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/304016b7-c8c3-418d-91be-cf725bff8dc9.jpg",
+      "https://s3.amazonaws.com/vehicle-images/941ef7f7-6c98-4aa2-8a32-c6aa344dca02.jpg",
+      "https://s3.amazonaws.com/vehicle-images/9be9a854-1ed8-44d3-88c2-b10a7f156ff3.jpg",
+      "https://s3.amazonaws.com/vehicle-images/bdd1a1e0-d345-4f5e-86bb-177cc8230199.jpg",
+      "https://s3.amazonaws.com/vehicle-images/9dee698a-01da-4e22-af6a-30cdf9f2ef27.jpg",
+      "https://s3.amazonaws.com/vehicle-images/ba60d80d-d24e-48b8-9128-471ac0d30751.jpg",
+      "https://s3.amazonaws.com/vehicle-images/7c4f6576-1e61-42f4-b5a2-9fc0e0ebec30.jpg",
+      "https://s3.amazonaws.com/vehicle-images/1eeb113f-f694-4198-8a3b-ccab2f72b0e3.jpg",
+      "https://s3.amazonaws.com/vehicle-images/368c43c8-d8cd-4d19-a192-40ed4bbeaa05.jpg",
+      "https://s3.amazonaws.com/vehicle-images/30c0fd16-d7a1-43e2-96bc-e808af12d379.jpg"
+    ],
     "location": "Munich",
     "blurb": "Nearly new, premium badge, hatchback practicality — and warranty history that transfers cleanly to you."
   },
@@ -71,7 +99,18 @@
     "vatRate": 19,
     "priceNet": 15966,
     "vatAmount": 3034,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/3ca78aba-e573-4067-92eb-1553a76ed5b5.jpg",
+      "https://s3.amazonaws.com/vehicle-images/7e4ca377-fabc-4d00-b3c1-7e13e9f69e68.jpg",
+      "https://s3.amazonaws.com/vehicle-images/1326afdd-d9da-4bd7-a132-cb6d04f95156.jpg",
+      "https://s3.amazonaws.com/vehicle-images/29ea584f-b6df-4ad1-9d5f-dfcc32f31098.jpg",
+      "https://s3.amazonaws.com/vehicle-images/fa0d6c54-cff8-4791-95e2-4677f6d1baac.jpg",
+      "https://s3.amazonaws.com/vehicle-images/0f5682a1-9a1e-4e2e-b0cc-fec8696a548a.jpg",
+      "https://s3.amazonaws.com/vehicle-images/e51b8d40-a387-488a-aea0-4baa81b7f15f.jpg",
+      "https://s3.amazonaws.com/vehicle-images/83d507a5-09a0-479b-8f3c-2ebd8ade8a4b.jpg",
+      "https://s3.amazonaws.com/vehicle-images/e6014233-a009-4d42-837a-c232e401c3d7.jpg",
+      "https://s3.amazonaws.com/vehicle-images/8a3ed7c9-838a-4718-b3b6-5a69fedf0734.jpg"
+    ],
     "location": "Luxembourg",
     "blurb": "More boot than cars costing €10k more. The quiet favourite of people who move countries often."
   },
@@ -90,7 +129,18 @@
     "vatRate": 19,
     "priceNet": 27983,
     "vatAmount": 5317,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/e2ad4cbf-ebbc-4aaa-b19f-9fafdc877b2d.jpg",
+      "https://s3.amazonaws.com/vehicle-images/296bc6ef-3512-4c56-bc71-aede2f47ee24.jpg",
+      "https://s3.amazonaws.com/vehicle-images/e4bef158-5590-4f9c-8243-c43fd43e1243.jpg",
+      "https://s3.amazonaws.com/vehicle-images/427aa74c-b8c7-4ad7-b393-22d007069957.jpg",
+      "https://s3.amazonaws.com/vehicle-images/792536a6-ee80-459e-96b1-3ec340e814c7.jpg",
+      "https://s3.amazonaws.com/vehicle-images/ae6a7536-3a32-4634-9c87-bdce92df5339.jpg",
+      "https://s3.amazonaws.com/vehicle-images/1fd5f89c-3ac5-4d5e-a891-db9a79306d77.jpg",
+      "https://s3.amazonaws.com/vehicle-images/2e98c845-535d-4fe4-ab2c-d9a387f3f445.jpg",
+      "https://s3.amazonaws.com/vehicle-images/10367f93-579b-4755-93b2-7abfff569448.jpg",
+      "https://s3.amazonaws.com/vehicle-images/ad74cd32-8013-43a8-93ae-196252e68115.jpg"
+    ],
     "location": "Düsseldorf",
     "blurb": "Top-tier safety scores and a calm, well-built cabin for long motorway drives with the family."
   },
@@ -109,7 +159,18 @@
     "vatRate": 19,
     "priceNet": 21008,
     "vatAmount": 3992,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/ac9b3305-8449-49cd-b532-19f0e4a90507.jpg",
+      "https://s3.amazonaws.com/vehicle-images/42376dd9-032a-436c-9aaf-b693b66dfba6.jpg",
+      "https://s3.amazonaws.com/vehicle-images/d487c171-bc97-4a3a-b51d-4e6ef05249b1.jpg",
+      "https://s3.amazonaws.com/vehicle-images/bf5b0f03-9905-47f4-a56b-3762fabd1e99.jpg",
+      "https://s3.amazonaws.com/vehicle-images/dd7fa464-e4bf-4162-a789-99b03c8d383b.jpg",
+      "https://s3.amazonaws.com/vehicle-images/6cf2306c-2b87-4fa2-856a-d8c4085a1921.jpg",
+      "https://s3.amazonaws.com/vehicle-images/08226316-c9c6-470d-8f8e-ecf73ffab137.jpg",
+      "https://s3.amazonaws.com/vehicle-images/34b7a76d-7c4f-4dfa-ab2c-dd147dc599ea.jpg",
+      "https://s3.amazonaws.com/vehicle-images/b9a48717-888a-4d06-9aa5-830751424d4d.jpg",
+      "https://s3.amazonaws.com/vehicle-images/cdb55022-b1ab-4f8c-8309-13a60a7779c3.jpg"
+    ],
     "location": "Wiesbaden",
     "blurb": "Compact footprint, premium cabin, and a dealer network on every second corner in Germany."
   },
@@ -128,7 +189,18 @@
     "vatRate": 19,
     "priceNet": 30000,
     "vatAmount": 5700,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/90eb81ae-6c6d-4975-b819-de77d9c0f1f6.jpg",
+      "https://s3.amazonaws.com/vehicle-images/472905d2-7dd7-4510-8e64-76638afe6054.jpg",
+      "https://s3.amazonaws.com/vehicle-images/b0cacc47-94a9-449a-b7a7-c159a3d5aa20.jpg",
+      "https://s3.amazonaws.com/vehicle-images/1f159c3f-075f-4d32-ba9e-9a2a51da0e86.jpg",
+      "https://s3.amazonaws.com/vehicle-images/e8e44339-46a8-4732-b3dc-a86a9c5cb193.jpg",
+      "https://s3.amazonaws.com/vehicle-images/04bef0ea-a293-4c55-bd49-9c0b9df3c490.jpg",
+      "https://s3.amazonaws.com/vehicle-images/e55f25fb-62bf-4e83-bb44-37edd3c17e12.jpg",
+      "https://s3.amazonaws.com/vehicle-images/51d7e8d9-d567-497a-8282-75150d58e835.jpg",
+      "https://s3.amazonaws.com/vehicle-images/eca71068-ad87-45da-924a-346aca666f56.jpg",
+      "https://s3.amazonaws.com/vehicle-images/8feeada9-89ee-456a-8692-1b1f273f7235.jpg"
+    ],
     "location": "Heidelberg",
     "blurb": "300 hp combined, all-wheel drive, and a real electric range for the daily commute — distinctive without shouting."
   },
@@ -147,7 +219,18 @@
     "vatRate": 19,
     "priceNet": 25462,
     "vatAmount": 4838,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/acaf080c-5c59-4992-9eb8-b9838dc75428.jpg",
+      "https://s3.amazonaws.com/vehicle-images/60b08b30-61bd-4721-b049-14fafbbb824e.jpg",
+      "https://s3.amazonaws.com/vehicle-images/00aa5feb-1035-4d87-a548-b682e0fa8460.jpg",
+      "https://s3.amazonaws.com/vehicle-images/bd27c582-683b-4ed3-b6b1-8f8c6ec2edbd.jpg",
+      "https://s3.amazonaws.com/vehicle-images/4441ff6b-4593-429b-8c8a-d2b5b8d0b8f7.jpg",
+      "https://s3.amazonaws.com/vehicle-images/1e4e05f2-9eb1-4c20-ab9f-ce2c14f0129a.jpg",
+      "https://s3.amazonaws.com/vehicle-images/ea360cd6-2a34-445a-b599-a95cea305219.jpg",
+      "https://s3.amazonaws.com/vehicle-images/d6b27718-0046-4ea0-9879-6cf19dc1a101.jpg",
+      "https://s3.amazonaws.com/vehicle-images/1e263c95-1f68-4455-b35a-dd4a6696e1fb.jpg",
+      "https://s3.amazonaws.com/vehicle-images/2a0239d1-529d-468c-ba2c-bc844d1a6d93.jpg"
+    ],
     "location": "Frankfurt",
     "blurb": "The interesting alternative to another grey SUV — VW-group mechanicals underneath, so nothing about ownership is a gamble."
   },
@@ -166,7 +249,18 @@
     "vatRate": 19,
     "priceNet": 28487,
     "vatAmount": 5413,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/44a97e46-edf2-41a5-a2fe-b2e5c0e97835.jpg",
+      "https://s3.amazonaws.com/vehicle-images/0c849298-3c69-4d75-8b32-5d690a2efcc3.jpg",
+      "https://s3.amazonaws.com/vehicle-images/9ce59f04-82c8-4e63-b927-980f71965ce0.jpg",
+      "https://s3.amazonaws.com/vehicle-images/afda46e9-97db-4e82-a89d-4bece19673e0.jpg",
+      "https://s3.amazonaws.com/vehicle-images/14f7dca8-9495-4623-8921-f2ef96ddd716.jpg",
+      "https://s3.amazonaws.com/vehicle-images/8fbf962e-e79d-42f5-90dc-53d8f8192461.jpg",
+      "https://s3.amazonaws.com/vehicle-images/09f8678d-d529-4371-baf1-51c78d794bf2.jpg",
+      "https://s3.amazonaws.com/vehicle-images/8d9abff7-6808-4f81-bde6-5d68928c9c3f.jpg",
+      "https://s3.amazonaws.com/vehicle-images/63159a91-327c-445d-ad7d-493990d58274.jpg",
+      "https://s3.amazonaws.com/vehicle-images/c9216771-5c6e-4af1-afdf-d30b8049787e.jpg"
+    ],
     "location": "Munich",
     "blurb": "~420 km WLTP range, Golf-sized, and the cheapest way into an EV you can service anywhere in the country."
   },
@@ -185,7 +279,18 @@
     "vatRate": 19,
     "priceNet": 24034,
     "vatAmount": 4566,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/60c0d827-c05d-4180-8a25-2fc37ba6fa14.jpg",
+      "https://s3.amazonaws.com/vehicle-images/e7498096-836b-42ec-bd27-26c66c6d9221.jpg",
+      "https://s3.amazonaws.com/vehicle-images/ae6e6ac2-3d99-431a-b21d-72785f47badd.jpg",
+      "https://s3.amazonaws.com/vehicle-images/272759b6-7e2a-457c-86ef-ebfd8e1a1607.jpg",
+      "https://s3.amazonaws.com/vehicle-images/8759f294-1af1-4f3b-9d25-1a9e3c1befde.jpg",
+      "https://s3.amazonaws.com/vehicle-images/506397e9-46b3-44aa-994c-141e8e70c353.jpg",
+      "https://s3.amazonaws.com/vehicle-images/8b9c9923-1a72-4884-9730-ead240e2f077.jpg",
+      "https://s3.amazonaws.com/vehicle-images/09ed1ddc-b924-4822-944b-bea9f7ed4595.jpg",
+      "https://s3.amazonaws.com/vehicle-images/ec0bfede-20c0-47ba-a113-ecff326ec745.jpg",
+      "https://s3.amazonaws.com/vehicle-images/bf338b74-55bc-4c6d-8335-acee2dfff80d.jpg"
+    ],
     "location": "Luxembourg",
     "blurb": "Estate space, plug-in economy for the short trips, and the remainder of Kia's seven-year warranty."
   },
@@ -204,7 +309,18 @@
     "vatRate": 19,
     "priceNet": 21513,
     "vatAmount": 4087,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/ae0c6ddc-b8f7-42be-918b-cb67b9323b83.jpg",
+      "https://s3.amazonaws.com/vehicle-images/f3f016f3-81cb-43e4-801a-602e01039a4f.jpg",
+      "https://s3.amazonaws.com/vehicle-images/440200fd-064f-4aee-8c01-0716ea1a1e78.jpg",
+      "https://s3.amazonaws.com/vehicle-images/66aca4f0-eccc-4846-a775-8f58002414e1.jpg",
+      "https://s3.amazonaws.com/vehicle-images/14835e24-94e7-4a4a-9c0b-e521f4425e87.jpg",
+      "https://s3.amazonaws.com/vehicle-images/c1447efe-9a10-4e17-a9a8-b27d0abaa556.jpg",
+      "https://s3.amazonaws.com/vehicle-images/42896746-4f9c-40e2-a73f-2afc87d804ce.jpg",
+      "https://s3.amazonaws.com/vehicle-images/ae3fdb5a-2d7f-46ae-a49b-b4bc9440777d.jpg",
+      "https://s3.amazonaws.com/vehicle-images/c50cbf87-fbed-4f7d-be44-cd14e32109e5.jpg",
+      "https://s3.amazonaws.com/vehicle-images/2e26a1a0-d7e3-4c41-b1cb-7feef09a8e75.jpg"
+    ],
     "location": "Stuttgart",
     "blurb": "Higher miles, lower price — a well-kept diesel Tiguan is the workhorse choice for a family settling in."
   },
@@ -223,7 +339,18 @@
     "vatRate": 19,
     "priceNet": 20000,
     "vatAmount": 3800,
-    "images": [],
+    "images": [
+      "https://s3.amazonaws.com/vehicle-images/f55fbf78-1214-443e-83e9-902a87f0382a.jpg",
+      "https://s3.amazonaws.com/vehicle-images/9d0608ef-bc7c-4fe4-b328-b24c2ef3a15e.jpg",
+      "https://s3.amazonaws.com/vehicle-images/bc4f0b76-5159-4e98-9134-c0b31822cf6f.jpg",
+      "https://s3.amazonaws.com/vehicle-images/084fce16-5765-486e-90d8-cc56373223e5.jpg",
+      "https://s3.amazonaws.com/vehicle-images/9d5c9f9b-8f77-4e2c-9aee-94b57f8941e6.jpg",
+      "https://s3.amazonaws.com/vehicle-images/da7df867-68a8-4205-b476-6a003863a986.jpg",
+      "https://s3.amazonaws.com/vehicle-images/dae6d315-af3d-42c6-a3f8-34505fc293f8.jpg",
+      "https://s3.amazonaws.com/vehicle-images/9087245a-f37a-42d2-b76b-ddd349c34d0d.jpg",
+      "https://s3.amazonaws.com/vehicle-images/de12ec27-b708-4125-b854-b70a30f1cb74.jpg",
+      "https://s3.amazonaws.com/vehicle-images/3b6d90be-99e1-4f43-8b8b-e6873c4448c5.jpg"
+    ],
     "location": "Frankfurt",
     "blurb": "Maximum space per euro. The default for anyone commuting between cities — or countries — every week."
   }
