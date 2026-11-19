@@ -12,14 +12,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^6.0.2",
-    "@astrojs/sitemap": "^3.7.3",
-    "@astrojs/vercel": "^11.0.5",
+    "@astrojs/react": "^7.1.9",
+    "@astrojs/sitemap": "^3.7.6",
+    "@astrojs/vercel": "^11.0.22",
     "@nanostores/react": "^1.1.0",
     "@tailwindcss/vite": "^4.3.2",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "astro": "^7.2.1",
+    "astro": "^7.4.13",
     "clsx": "^2.1.1",
     "nanostores": "^1.4.1",
     "react": "^19.2.7",
